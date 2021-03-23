@@ -1,0 +1,278 @@
+@media screen and (max-width:1100px) {
+  .header-itm {
+    max-width: 800px;
+  }
+
+  .content {
+    max-width: 800px;
+  }
+
+  .slider-content {
+    max-width: 800px;
+  }
+
+  .slider {
+    width: 800px;
+    height: 350px;
+  }
+
+  .title h1 {
+    font-size: 36px;
+  }
+
+  .title p {
+    font-size: 28px
+  }
+
+  .content {
+    justify-content: center;
+  }
+
+  .product-itm {
+    max-width: 33.33%;
+    margin-top: 10px;
+  }
+
+  .product-itm:nth-child(4) {
+    max-width: 33.33%;
+  }
+  div.slider-arrow-left, div.slider-arrow-right{
+    top:87%;
+  }
+}
+
+  @media screen and (max-width:800px) {
+    .header {
+      justify-content: center;
+      height: 60px;
+    }
+
+    .header-itm {
+      max-width: 700px;
+    }
+
+    .menu-bar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .logo-btm {
+      display: none;
+    }
+
+    .logo-img img {
+      display: none;
+    }
+
+    .logo-text {
+      font-size: 22px;
+      font-family: "PT Sans";
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      line-height: 0.75;
+    }
+
+
+    .title {
+      padding: 30px 0;
+    }
+
+    .content-title {
+      margin: 20px 0;
+      font-size: 26px;
+    }
+
+    .title h1 {
+      font-size: 34px;
+    }
+
+    .title p {
+      font-size: 26px;
+      margin-top: 20px;
+    }
+
+    .content {
+      justify-content: center;
+    }
+
+    .product-itm {
+      max-width: 33.33%;
+      margin-top: 10px;
+    }
+
+    .product-itm:nth-child(4) {
+      max-width: 33.33%;
+    }
+
+    .slider-title {
+      font-size: 34px;
+    }
+
+    .copyright {
+      font-size: 16px;
+    }
+    .slider {
+      width: 600px;
+    }
+    .slider-element {
+      top:25px;
+    }
+    .mobile {
+      display: flex;
+      margin-top:40px;
+    }
+  }
+
+  @media screen and (max-width:700px) {
+    .header-itm {
+      max-width: 550px;
+    }
+
+    .content {
+      max-width: 550px;
+    }
+
+    .slider-content {
+      max-width: 550px;
+    }
+
+    .title {
+      padding: 25px 0;
+    }
+
+    .title h1 {
+      font-size: 28px;
+    }
+
+    .title p {
+      font-size: 22px
+    }
+
+    .product-itm {
+      max-width: 44.44%;
+      margin-top: 10px;
+    }
+
+    .product-itm:nth-child(4) {
+      max-width: 44.44%;
+    }
+
+    .slider-title {
+      font-size: 28px;
+    }
+
+    .copyright {
+      font-size: 14px;
+    }
+    .slider-element {
+      top:50px;
+    }
+    div.slider-arrow-left, div.slider-arrow-right{
+      top:87%;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    .header-itm {
+      max-width: 400px;
+    }
+
+    .content {
+      max-width: 400px;
+    }
+
+    .slider-content {
+      max-width: 400px;
+    }
+
+    .slider {
+      width: 400px;
+      height:250px;
+    }
+
+    .content-title {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+
+    .title {
+      padding: 20px 0;
+    }
+
+    .title h1 {
+      font-size: 22px;
+    }
+
+    .title p {
+      font-size: 16px
+    }
+
+    .product-itm {
+      max-width: 88.88%;
+      margin-top: 10px;
+    }
+
+    .product-itm:nth-child(4) {
+      max-width: 88.88%;
+    }
+    div.slider-arrow-left, div.slider-arrow-right{
+      display: none;
+    }
+    span.sim-dot{
+      width: 20px;
+      height: 20px;
+      margin: 5px 7px;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    .header-itm {
+      max-width: 350px;
+    }
+
+    .content {
+      max-width: 350px;
+    }
+
+    .slider-content {
+      max-width: 350px;
+    }
+
+    .slider {
+      width: 350px;
+      height: 290px;
+    }
+
+    .title {
+      padding: 20px 0;
+    }
+
+    .title h1 {
+      font-size: 20px;
+    }
+
+    .title p {
+      font-size: 16px
+    }
+
+    .product-itm {
+      max-width: 92.88%;
+      margin-top: 10px;
+    }
+
+    .product-itm:nth-child(4) {
+      max-width: 92.88%;
+    }
+
+    .slider-title {
+      font-size: 20px;
+    }
+
+    .copyright {
+      font-size: 12px;
+    }
+    div.slider-arrow-left, div.slider-arrow-right{
+      display: none;
+    }
+  }
